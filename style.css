@@ -1,0 +1,40 @@
+/* сброс стилей */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navigation {
+  padding-top: 35px;
+  margin-bottom: 72px;
+}
+.navigation__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation__list {
+  display: flex;
+  align-items: center;
+  grid-gap: 39px;
+}
+.navigation__list-item-link {
+  font-weight: 500;
+  color: #0c2836;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navigation__list-item-link:hover {
+  text-decoration: underline;
+}
